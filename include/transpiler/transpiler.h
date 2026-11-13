@@ -6,7 +6,8 @@ extern "C" {
 #endif
 
 
-int transpileToBash(const char *filename);
+int transpileToBash(const char *code, const char *filename);
+int transpileToBatch(const char *code, const char *filename);
 
 #ifdef __cplusplus
 }

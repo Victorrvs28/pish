@@ -14,7 +14,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 set(SOURCES
-    src/transpiler/transpiler.cpp
     src/main.c
     src/lexer/lexer.c
     src/parser/parser.c
